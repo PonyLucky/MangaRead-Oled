@@ -1,0 +1,67 @@
+body {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.site-header .c-sub-header-nav {
+    background-color: #000 !important;
+    border-bottom: none !important;
+}
+
+.body-wrap, .summary_content, .search-wrap .tab-summary .post-content, .sub-nav_content .sub-menu, .c-user_menu {
+    background-color: #000 !important;
+}
+
+.sub-nav_list li a, .breadcrumb li a, .c-user_item span, .wpd-comment-text {
+    color: #ddd !important;
+}
+
+.font-title a, a, h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+    color: #d5d5d5 !important;
+}
+
+.popular-slider .slider__container .slider__item .item__wrap {
+    background-color: #242424 !important;
+    border-radius: 10px !important;
+}
+
+.chapter-item .chapter, .search-wrap .latest-chap .chapter {
+    background-color: #426b8f !important;
+}
+
+.chapter-item .chapter a, .score {
+    color: #fff !important;
+}
+
+.navigation-ajax .load-ajax, .action-icon ul li a {
+    background-color: #598fbf !important;
+}
+
+.profile-manga.summary-layout-1, .c-search-header__wrapper, .c-breadcrumb-wrapper {
+    background-image: none !important;
+}
+
+.content-readmore, .chapter-readmore {
+    color: #598fbf !important;
+}
+
+.manga-search-field {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.ui-autocomplete {
+    color: #000 !important;
+}
+
+.summary__content.show-more::after, .listing-chapters_wrap.show-more .version-chap::after {
+    background: -moz-linear-gradient(top,rgba(253, 253, 253, 0),#000) !important;
+}
+
+table:not(#wp-calendar):not(.shop_table) > tbody > tr:hover {
+    background-color: #333 !important;
+}
+
+.settings-page .nav-tabs-wrap ul.nav-tabs li:not(.active) a {
+    background-color: #000;
+}
