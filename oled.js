@@ -21,13 +21,15 @@ class Oled {
         this.s('.chapter-item .chapter', { backgroundColor: '#426b8f' });
         this.s('.chapter-item .chapter a, .score', { color: '#fff' });
         this.s('.navigation-ajax .load-ajax, .action-icon ul li a', { backgroundColor: '#598fbf' });
-        this.s('.profile-manga.summary-layout-1', { backgroundImage: '' });
+        this.s('.profile-manga.summary-layout-1, .c-search-header__wrapper', { backgroundImage: '' });
         this.s('.content-readmore, .chapter-readmore', { color: '#598fbf' });
         this.s('.manga-search-field', {
             color: '#000',
             backgroundColor: '#fff',
         });
         this.s('.ui-autocomplete', { color: '#000 !important' });
+        this.s('.search-wrap .tab-summary .post-content', { backgroundColor: '#000' });
+        this.s('.search-wrap .latest-chap .chapter', { backgroundColor: '#426b8f' });
     }
 
     s(v, o) {
