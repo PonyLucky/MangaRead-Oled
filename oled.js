@@ -23,6 +23,11 @@ class Oled {
         this.s('.navigation-ajax .load-ajax, .action-icon ul li a', { backgroundColor: '#598fbf' });
         this.s('.profile-manga.summary-layout-1', { backgroundImage: '' });
         this.s('.content-readmore, .chapter-readmore', { color: '#598fbf' });
+        this.s('.manga-search-field', {
+            color: '#000',
+            backgroundColor: '#fff',
+        });
+        this.s('.ui-autocomplete', { color: '#000 !important' });
     }
 
     s(v, o) {
