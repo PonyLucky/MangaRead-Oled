@@ -67,12 +67,12 @@ table:not(#wp-calendar):not(.shop_table) > tbody > tr:hover {
 }
 
 /* Make scroll touch area wider */
-.content-area > .container {
+body.reading-manga .content-area > .container {
     max-width: 100vw;
     padding-left: 0;
     padding-right: 0;
 }
-#chapter-heading, #manga-reading-nav-head, #manga-reading-nav-foot {
+body.reading-manga #chapter-heading, #manga-reading-nav-head, #manga-reading-nav-foot {
     max-width: 1140px;
     width: 100%;
     padding-right: 15px;
